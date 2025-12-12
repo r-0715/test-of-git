@@ -1,0 +1,34 @@
+
+#talk{
+    min-width: none;
+    max-width: 600px;
+    position: relative;
+    padding: 4px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#question{
+    padding: 2px;
+    border-radius: 8px;
+}
+
+#submit{
+    padding: 2px;
+    border-radius: 8px;
+}
+
+#clogged{
+    margin: 0px;
+}
+
+#ans{
+    margin-top: 8px;
+}
+
+#name{
+    text-decoration-color: orange;
+    text-decoration-style: solid;
+    text-decoration: underline;
+}

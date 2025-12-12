@@ -7,6 +7,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <img id="main-char" src="images/main-char.png">
+    <div id="talk">
+        <p id="clogged">
+            こんにちは!<br>
+            私の名前は<span id="name">アル</span>.<br>
+            このプロジェクトのナビゲーターだよ!!<br>
+            ............................................<br>
+            うーん、こんな仕事初めてだから、なにから話せばいいのかわからない...<br>
+            <br><br>
+            あっ、じゃあ何か質問してくれない?<br>
+            はりきって答えるよ!!!<br>
+            <select id="question">
+                <option value="">ここからいろいろ聞いてね!</option>
+                <option value="1">アルちゃんは何なの?</option>
+                <option value="2">このプロジェクトって何?</option>
+                <option value="3">今日は何日?</option>
+                <option value="4">アルちゃんの趣味は?</option>
+                <option value="5">好きな食べ物は?</option>
+            </select>
+            <button id="submit">この内容で質問する</button><br>
+            <p id="ans"></p>
+        </p>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
