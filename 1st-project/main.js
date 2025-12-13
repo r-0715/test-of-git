@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded',()=>{
     const ans = document.getElementById('ans');
     let q_count = 0;
     //
-    Btn.addEventListener('click',()=>{
+    Btn.addEventListener('touchstart',()=>{
         //
         const question = document.getElementById('question').value;
         q_count++;
