@@ -34,7 +34,7 @@ window.addEventListener('DOMContentLoaded',()=>{
             let dates = new Date();
             let day = dates.getDate();//1~31
             setTimeout(() => {
-                ans.innerHTML += day+"日!<br>どう?あったてたでしょ?";
+                ans.innerHTML = "私に全く関係ないことじゃん<br>でもいいよ!<br>ええと、今日は確か、、、"+day+"日!<br>どう?あったてたでしょ?";
             }, 2000);
         }
         if(question === '4'){
@@ -75,7 +75,7 @@ window.addEventListener('DOMContentLoaded',()=>{
             let dates = new Date();
             let day = dates.getDate();//1~31
             setTimeout(() => {
-                ans.innerHTML += day+"日!<br>どう?あったてたでしょ?";
+                ans.innerHTML = "私に全く関係ないことじゃん<br>でもいいよ!<br>ええと、今日は確か、、、"+day+"日!<br>どう?あったてたでしょ?";
             }, 2000);
         }
         if(question === '4'){
