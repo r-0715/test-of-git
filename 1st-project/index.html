@@ -7,7 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img id="main-char" src="images/main-char.png">
+    <div id="top">
+        <img id="main-char" src="images/main-char.png">
+        <div id="char-inf">
+            <ul id="list-1">
+                <li><span class="char-inf-list">名前:</span>アル-ver.1.1.0</li>
+                <li><span class="char-inf-list">登録名:</span>images/main-char</li>
+                <li><span class="char-inf-list">年齢:</span>15歳</li>
+                <li><span class="char-inf-list">誕生日:</span>8月6日</li>
+                <li><span class="char-inf-list">性別:</span>女の子</li><br>
+                <li><span class="char-inf-list">存在:</span>717600bit</li>
+                <li><span class="char-inf-list">形式:</span>PNGファイル</li>
+                <li><span class="char-inf-list">依存:</span><a href="https://x.com/gbxhmh8mu485250?s=21">x.com/</a></li>
+                <li><span class="char-inf-list">実行:</span>1</li>
+                <li><span class="char-inf-list">忠誠:</span>80</li>
+                <li><span class="char-inf-list">lv:</span>1</li>
+                <li><a href="">詳しくはここから(作成中)</a></li>
+            </ul>
+        </div>
+    </div>
     <div id="talk">
         <p id="clogged">
             こんにちは!<br>
@@ -18,17 +36,17 @@
             <br><br>
             あっ、じゃあ何か質問してくれない?<br>
             はりきって答えるよ!!!<br>
-            <select id="question">
-                <option value="">ここからいろいろ聞いてね!</option>
-                <option value="1">アルちゃんは何なの?</option>
-                <option value="2">このプロジェクトって何?</option>
-                <option value="3">今日は何日?</option>
-                <option value="4">アルちゃんの趣味は?</option>
-                <option value="5">好きな食べ物は?</option>
-            </select>
-            <button id="submit">この内容で質問する</button><br>
-            <p id="ans"></p>
         </p>
+        <select id="question">
+            <option value="">ここからいろいろ聞いてね!</option>
+            <option value="1">アルちゃんは何なの?</option>
+            <option value="2">このプロジェクトって何?</option>
+            <option value="3">今日は何日?</option>
+            <option value="4">アルちゃんの趣味は?</option>
+            <option value="5">好きな食べ物は?</option>
+        </select>
+        <button id="submit">この内容で質問する</button><br>
+        <p id="ans"></p>
     </div>
     <script src="main.js"></script>
 </body>

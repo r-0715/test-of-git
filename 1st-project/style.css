@@ -1,3 +1,29 @@
+body{
+    background-color: lightgreen;
+}
+
+#top{
+    display: flex;
+}
+
+#char-inf{
+    width: 310px;
+    background-color: #ccc;
+    border: 1px solid #000;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    border-radius: 16px;
+}
+
+.char-inf-list{
+    margin-right: 16px;
+}
+
+#list-1{
+    list-style-type: none;
+    padding-left: 16px;
+}
+
 #talk{
     min-width: none;
     max-width: 600px;
