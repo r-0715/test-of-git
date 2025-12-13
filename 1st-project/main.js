@@ -2,9 +2,15 @@ window.addEventListener('DOMContentLoaded',()=>{
     //
     const Btn = document.getElementById('submit');
     const ans = document.getElementById('ans');
+    const slc = document.getElementById('question');
     let q_count = 0;
     //
     //スマホ操作
+    slc.addEventListener('touchstart',()=>{
+        if(q_count === 0){
+            slc.remove(0);
+        }
+    });
     Btn.addEventListener('touchstart',()=>{
         //
         const question = document.getElementById('question').value;
@@ -38,7 +44,14 @@ window.addEventListener('DOMContentLoaded',()=>{
             ans.innerHTML = "チーズケーキ!!!!!!!!!!<br>毎年の誕生日とクリスマスはチーズケーキをたべるんだ!<br>口の中に残るチーズケーキの風味が最高なんだよ!!!";
         }
     });
+    //
+    //
     //pc操作
+        slc.addEventListener('click',()=>{
+        if(q_count === 0){
+            slc.remove(0);
+        }
+    });
     Btn.addEventListener('click',()=>{
         //
         const question = document.getElementById('question').value;
